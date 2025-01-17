@@ -73,6 +73,7 @@ header section p {
     color: white;
     font-size: 16px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 /* Vision of Future */
@@ -137,6 +138,7 @@ header section p {
     border-radius: 8px;
     border: none;
     padding: 11px 20px;
+    cursor: pointer;
 }
 /* queation part and also challanging part */
 .The-vision-of-future{
@@ -221,3 +223,109 @@ header section p {
     width: 400px;
     height: 300px;
 }
+
+/* Donate section */
+
+.donate-today{
+    max-width: 1280px;
+    max-height: 464px;
+    margin: auto;
+    width: 65%;
+    padding: 0px 100px;
+}
+.donate-today-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-btn{
+    height: 115px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    font-size:35px;
+    font-weight: bold;
+    border: 2px solid rgba(14, 14, 14, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.donate-btn:hover{
+    background-color: #C6E4D6;
+}
+.donate-margin{
+    margin-top: 32px;
+}
+.gap-right{
+    margin-right: 20px;
+}
+.donate-input-box{
+    width:900px;
+    height: 64px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 80px;
+    margin-bottom: 80px ;
+}
+.footer-1{
+    padding: 80px 100px;
+}
+.footer-1{
+    max-width: 1280px;
+    max-height: 395px;
+    background-color: #C6E4D6;
+    margin: auto;
+    width: 65%;
+    border-radius: 24px;
+    padding: 8 ;
+}
+
+.subscribe-container {
+    width:800px ;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #c9e3db;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f5fdfb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    background: transparent;
+    font-size:16px ;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.3) ;
+  }
+  
+  .subscribe-button {
+    background-color: #006c55;
+    color: white;
+    padding:18px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #004d40; /* Darker green on hover */
+  }
+  .footer-title{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .footer-text{
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .fotter-text-2{
+    margin-top: 24px;
+  }
