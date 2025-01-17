@@ -11,7 +11,32 @@
     font-variation-settings: "wdth" 100;
     background-color: #F1F1F3;
 }
-
+/* nav style section */
+.nav-ber{
+    margin: auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    text-align: center;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-btn{
+    border: 2px solid #006A50;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px ;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    color: white;
+    background-color:#006A50;
+}
 /* Header Style */
 .header {
     background-color: #C6E4D6;
@@ -69,12 +94,34 @@ header section p {
     border-radius: 7px;
     border: none;
     padding: 15px 30px;
-    background-color: #006A50;
     color: white;
     font-size: 16px;
     margin-top: 24px;
     cursor: pointer;
+    background: linear-gradient(45deg, #FF6F61, #00A86B, #F4B400, #0099CC); /* Enhanced Gradient Colors */
+    background-size: 400% 400%; /* Larger gradient for smoother transitions */
+    animation: gradientBackground 5s infinite; /* Smoother animation duration */
 }
+
+/* Keyframes for background animation */
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 /* Vision of Future */
 .vision-title{
@@ -248,8 +295,17 @@ header section p {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.donate-btn:hover{
-    background-color: #C6E4D6;
+.color-a:hover{
+    background-color: #00a86b;
+}
+.color-b:hover{
+    background-color:#f4b400 ;
+}
+.color-c:hover{
+    background-color:#0099cc ;
+}
+.color-d:hover{
+    background-color:#ff6f61 ;
 }
 .donate-margin{
     margin-top: 32px;
@@ -265,9 +321,7 @@ header section p {
     font-size: 20px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1)
 }
-.hr-line-donate{
-    
-}
+
 .footer {
     margin-top: 80px;
     margin-bottom: 80px;
