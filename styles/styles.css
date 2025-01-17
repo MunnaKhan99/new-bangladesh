@@ -1,7 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
 .fira-sans {
-  font-family: "Fira Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-color: #F1F1F3;
+}
+
+/* Header Style */
+.header {
+    background-color: #C6E4D6;
+    height: 560px;
+    width: 1280px;
+    border-radius: 24px;
+    padding: 60px 40px 60px 80px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.ban-2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+header section p {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/* Shared Styles */
+.color-1 {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.color-2 {
+    color: rgba(14, 14, 14, 1);
+}
+.color-3{
+    background-color: #5490F5;
+}
+.color-4{
+    background-color: #09A15C;
+}
+.color-5{
+    background-color: #FFC239;
+}
+.center {
+    margin: auto;
+    width: 65%;
+}
+
+
+.btn-primary {
+    border-radius: 7px;
+    border: none;
+    padding: 15px 30px;
+    background-color: #006A50;
+    color: white;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+/* Vision of Future */
+.vision-title{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.The-vision-of-future {
+    /* background-color: #C6E4D6; */
+    max-height: 560px; 
+    max-width: 1280px; 
+    text-align: left;
+    /* background-color: aqua;  */
+}
+.vision-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+    
+}
+.vision-text{
+    margin-top: 24px;
+    margin-bottom:32px ;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-box-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-box-2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-box-3{
+    background-color:#F7EBCF ;
+    padding: 32px;
+    border-radius: 16px;
+}
+.box-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.box-text{
+  font-size: 16px;
+  font-weight: 400px;
+  color: #0E0E0E;
+  
+}
+.vision-btn{
+    margin-top: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+/* queation part and also challanging part */
+.queations-dr-Younus{
+    max-width: 1280px;
+    max-height: 256px;
+    padding: 48px 24px ;
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 16px ;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x:24px;
+    background-position-y: 20px;
+}
+
+
+.queation-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 12px;
+}
+.queation-writer{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;    
+}
+.queation-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
 }
