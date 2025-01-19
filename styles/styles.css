@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;} 
+
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-color: #F1F1F3;
+}
+/* nav style section */
+.nav-ber{
+    margin: auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    text-align: center;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-btn{
+    border: 2px solid #006A50;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px ;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    color: white;
+    background-color:#006A50;
+}
+/* Header Style */
+.header {
+    background-color: #C6E4D6;
+    height: 560px;
+    width: 1280px;
+    border-radius: 24px;
+    padding: 60px 40px 60px 80px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.ban-2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+header section p {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/* Shared Styles */
+.color-1 {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.color-2 {
+    color: rgba(14, 14, 14, 1);
+}
+.color-3{
+    background-color: #5490F5;
+}
+.color-4{
+    background-color: #09A15C;
+}
+.color-5{
+    background-color: #FFC239;
+}
+.color-6{
+    color: rgba(14, 14, 14, 0.7);
+}
+.center {
+    margin: auto;
+    width: 65%;
+}
+.news-margin{
+    margin-bottom: 12px ;
+}
+
+.btn-primary {
+    border-radius: 7px;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #FF6F61, #00A86B, #F4B400, #0099CC); /* Enhanced Gradient Colors */
+    background-size: 400% 400%; /* Larger gradient for smoother transitions */
+    animation: gradientBackground 5s infinite; /* Smoother animation duration */
+}
+
+/* Keyframes for background animation */
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Vision of Future */
+.vision-title{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.The-vision-of-future {
+    /* background-color: #C6E4D6; */
+    max-height: 560px; 
+    max-width: 1280px; 
+    text-align: left;
+    /* background-color: aqua;  */
+}
+.vision-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+    
+}
+.vision-text{
+    margin-top: 24px;
+    margin-bottom:32px ;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-box-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-box-2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-box-3{
+    background-color:#F7EBCF ;
+    padding: 32px;
+    border-radius: 16px;
+}
+.box-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.box-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  
+}
+.vision-btn{
+    margin-top: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    cursor: pointer;
+}
+/* queation part and also challanging part */
+.The-vision-of-future{
+    max-height: 765px;
+    max-width: 1260px;
+    margin-bottom: 80px;
+}
+.queations-dr-Younus{
+    max-width: 1280px;
+    max-height: 256px;
+    padding: 48px 24px ;
+    background-color: white;
+    border-radius: 16px ;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x:24px;
+    background-position-y: 20px;
+    border: 2px solid rgba(14, 14, 14, 0.2);
+
+}
+
+
+.queation-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 12px;
+}
+.queation-writer{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;    
+}
+.queation-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+/* recent news section style  */
+
+.recent-news{
+    max-width: 1260px;
+    max-height: 1406px;
+    text-align: left;
+    margin: auto;
+    width: 65%;
+}
+.recent-news-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.recent-news-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.recent-news-block{
+    max-width: 1280px;
+    max-height: 402px;
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: white;
+    border-radius:24px ;
+    margin-bottom: 24px;
+}
+.recent-news-subtitle{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.news-image{
+    border-radius: 24px;
+}
+.victor-image{
+    width: 400px;
+    height: 300px;
+}
+
+/* Donate section */
+
+.donate-today{
+    max-width: 1280px;
+    max-height: 464px;
+    margin: auto;
+    width: 65%;
+    padding: 0px 100px;
+}
+.donate-today-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-btn{
+    height: 115px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    font-size:35px;
+    font-weight: bold;
+    border: 2px solid rgba(14, 14, 14, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.color-a:hover{
+    background-color: #00a86b;
+}
+.color-b:hover{
+    background-color:#f4b400 ;
+}
+.color-c:hover{
+    background-color:#0099cc ;
+}
+.color-d:hover{
+    background-color:#ff6f61 ;
+}
+.donate-margin{
+    margin-top: 32px;
+}
+.gap-right{
+    margin-right: 20px;
+}
+.donate-input-box{
+    width:900px;
+    height: 64px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1)
+}
+
+.footer {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-1 {
+    padding: 80px 100px;
+    max-width: 1280px;
+    max-height: 395px;
+    background-color: #C6E4D6;
+    margin: auto;
+    width: 65%;
+    border-radius: 24px;
+    padding: 8;
+    margin-bottom: 40px; /* Prevent overlap with the second <h2> */
+    overflow: hidden; /* Prevent margin collapse */
+  }
+  
+  .footer-brand {
+    margin: 24px 0; /* Controls spacing around this <h2> */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.subscribe-container {
+    width:800px ;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #c9e3db;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f5fdfb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .subscribe-input {
+    flex: 1;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    background: transparent;
+    font-size:16px ;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.3) ;
+  }
+  
+  .subscribe-button {
+    background-color: #006c55;
+    color: white;
+    padding:18px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #004d40; /* Darker green on hover */
+  }
+  .footer-title{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .footer-text{
+    color: rgba(14, 14, 14, 0.7);
+    margin:24px 0px ;
+  }
+  .fotter-text-2{
+    margin-top: 24px;
+  }
+
+  .horaizontal-line{
+    color: rgba(14, 14, 14, 0.1);
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    margin: 32px 0px;
+
+
+  }
